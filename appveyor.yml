@@ -10,6 +10,6 @@ install:
   - echo y | "%ANDROID_HOME%\tools\android.bat" update sdk -u -a -t extra, build-tools-21.1.2
 
 test_script:
-  - gradlew.bat build connectedCheck
+  - android\PhysicalWeb\gradlew.bat build connectedCheck
 
 build: off
